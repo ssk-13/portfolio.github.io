@@ -1,0 +1,158 @@
+
+
+
+.navvv{
+  background-color: #232427;
+  color: white;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.typewriter{
+  background-color: #232427;
+  color: white;
+  width: 100%;
+  height: 500px;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  
+}
+
+.typewriter h1 {
+    /* Existing code */
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 200px;
+    font-weight: bold; /* Added property */
+    font-size: 70px;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret 3.5s step-end 0.55s infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+  
+    50% { visibility: visible }
+  }
+
+  
+
+
+  .typewriter h2 {
+    /* Existing code */
+  
+    color: gray;
+    text-decoration: none;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: -150px;
+    font-weight: bold; /* Added property */
+    
+    
+  }
+  .typewriter span{
+    color: gray;
+   
+  }
+
+
+  .logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+  }
+
+  .containertech{
+   
+    white-space: nowrap;
+    text-align: center;
+    margin: 200px;
+    max-width: 97%;
+  border-radius: 5rem;
+
+  height: 100px;
+    
+    padding-top: 200px;
+    padding-bottom: 700px;
+
+    justify-content: center;
+   
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+
+ 
+  
+
+  }
+  .text-left{
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold; /* Added property */
+    font-size: 50px;
+
+    letter-spacing: .15em;
+    margin-left: -20PX;
+  }
+  
+  
+
+  .containercc h1 {
+    
+    margin: 35px 50px 20px 50px !important;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold; /* Added property */
+    font-size: 50px;
+    color: white;
+    letter-spacing: .15em;
+  }
+  
+  .containercc {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #232427;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  
+  .form-group {
+    margin-bottom: 20px;
+  
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  textarea.form-control {
+    height: auto;
+  }
+  
+
+  
